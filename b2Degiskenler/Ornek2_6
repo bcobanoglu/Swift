@@ -2,9 +2,10 @@
 
 let Ad = "swift"
 print(Ad.utf8.count) //Karakter sayısını verir
-print(Array(Ad.utf8)) //"[115, 119, 105, 102, 116]"
+print(Array(Ad.utf8)) //Karakterleri diziye dönüştürür
 
 /*Output:
 5
 [115, 119, 105, 102, 116]
 */
+//Not. Aynı çıktıyı UTF-16’ya göre almak isterseniz ‘utf8’i ‘utf16’ olarak değiştirmek yeterlidir. 
