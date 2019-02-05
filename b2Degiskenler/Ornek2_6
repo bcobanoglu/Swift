@@ -1,0 +1,10 @@
+//Örnek 2.6. Bir String ifade’deki her bir karakterin UTF8 standardına göre Unicode karşılığını dizi halinde veren programı kodlayınız.
+
+let Ad = "swift"
+print(Ad.utf8.count) //Karakter sayısını verir
+print(Array(Ad.utf8)) //"[115, 119, 105, 102, 116]"
+
+/*Output:
+5
+[115, 119, 105, 102, 116]
+*/
