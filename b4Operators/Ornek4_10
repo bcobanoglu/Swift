@@ -1,0 +1,11 @@
+//Örnek 4.10. ‘c=a-b’ işlemini çıkarma operatörünü kullanmadan 2’e tümleyen (2’s complement) yöntemi ile gerçekleştiriniz
+let a=8
+let b=12
+let c=a + (~b + 1)
+print(c) //8-12=-4
+
+/*Output: -4
+
+Aciklama:‘c=a-b’ işlemini ‘c=a + (-b)’ şeklinde b’nin 2’ye tümleyenini (~b + 1) alıp a ile toplayarak gerçekleştirdik.
+Böylece ‘a-b’ işlemini çıkarma operatörü kullanılmadan ‘a+(~b+1)’ şeklinde ifade edeceğiz. 
+*/
