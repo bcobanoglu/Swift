@@ -1,0 +1,3 @@
+import Foundation
+print (pow(Double(2),Double(3))) //2**3 = 8.0
+print (sqrt(Double(9))) // 9 un karekökü = 3.0
