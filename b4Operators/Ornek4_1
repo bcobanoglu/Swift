@@ -1,0 +1,15 @@
+//Örnek 4.1. Aritmetiksel operatörleri kullanarak basit bir hesap makinesi uygulamasını Swift dilinde gerçekleştiriniz.
+let a = 4, b = 2
+print ("4+2= \(a + b)")
+print ("4-2= \(a - b)")
+print ("4*2= \(a * b)")
+print ("4/2= \(a / b)")
+print ("4%2= \(a % b)")
+
+/*Output:
+4+2= 6
+4-2= 2
+4*2= 8
+4/2= 2
+4%2= 0
+*/
