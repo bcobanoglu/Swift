@@ -1,0 +1,7 @@
+//Örnek 4.4. Bir sayının tek mi çift mi olduğunu bulan programı ‘?:’ operatörünü kullanarak Swift dilinde kodlayınız.
+var A = 8
+print (( A % 2 == 0) ? "Çift" : "Tek")
+
+/*Output:
+Çift
+*/
