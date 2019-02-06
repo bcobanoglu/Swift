@@ -1,0 +1,11 @@
+//Örnek 4.6. Nil birleştirme operatörünün kullanım amacı
+let b = "ak"
+var a: String? //nil
+print (a != nil ? a! : b)	//Esdegeri: print (a ?? b)
+
+/*Output:ak
+
+Aciklama:
+Eğer ‘a’ değişkenine bir değer ataması yapılmazsa ekrana b’nin değeri yazılır 
+ama ‘a’ ya bir değer atanırsa ekrana a’nın değeri yazılır.
+*/
