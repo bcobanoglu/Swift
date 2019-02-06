@@ -1,3 +1,8 @@
 import Foundation
 print (pow(Double(2),Double(3))) //2**3 = 8.0
 print (sqrt(Double(9))) // 9 un karekökü = 3.0
+
+/*Aciklama:
+Swift dilinde üs ve karekök alma gibi işlemler için özel bir operatör tanımlanmamıştır. 
+Bunun için Foundation Kütüphanesi içerisinde yer alan pow() ve sqrt() metotları kullanılır.
+*/
