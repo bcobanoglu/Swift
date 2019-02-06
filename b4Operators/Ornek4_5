@@ -1,0 +1,11 @@
+//Örnek 4.5. Üç sayı içerisinden en küçük olanı ekranda gösteren programı min ve max operatörlerini kullanarak Swift dilinde kodlayınız.
+
+let a = 13, b = 9, c = 8
+print(min(min(a,b),c))
+
+/*Output: 8
+
+Açıklama: min() fonksiyonu iki değeri karşılaştırır. 
+Dolayısıyla içteki min(a,b) ile a ya da b’nin en küçüğü belirlenir.
+min(min(a,b),c) ile de elde edilen en küçük sayı ile c karşılaştırılır.
+*/
